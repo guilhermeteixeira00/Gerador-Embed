@@ -5,7 +5,7 @@ new Vue({
         embed: {
             color: "#ff0000",
             title: 'Este e o titulo',
-            url: 'https://discord.js.org',
+            url: '',
             author: {
                 name: '',
                 icon_url: '',
