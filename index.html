@@ -335,18 +335,17 @@
                                 </div>
                             </div>
                             <div class="form-group form-buttons" role="group" aria-label="Basic example">
-                                <button name="submit" class="btn btn-primary" @click="() => {toEmbedStr()}">Gerar
-                                    Json</button>
+                                <button name="submit" class="btn btn-primary" @click="toEmbedStr">Gerar Json</button>
 
                                 <button name="submit" class="btn btn-danger" @click="clearEmbed">Limpar</button>
                             </div>
                             <div class="output-wrapper" v-if="output">
                                 <textarea class="output" v-model="output"></textarea>
                                 <div class="output-button-wrapper">
-                                    <button class="output-btn btn btn-primary" @click="copyCommandToClipboard">!<i
-                                            class="fa fa-copy"></i></button>
-                                    <button class="output-btn btn btn-secondary" @click="copyToClipboard"><i
-                                            class="fa fa-copy"></i></button>
+                                    <button type="button" class="output-btn btn btn-secondary"
+                                        @click="copyToClipboard"><i class="fa fa-copy"></i></button>
+                                    <button type="button" class="output-btn btn btn-primary"
+                                        @click="copyCommandToClipboard">!<i class="fa fa-copy"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -363,7 +362,7 @@
 
                                     <div>
                                         <span class="discord-author-info">
-                                            <span class="discord-author-username" style="">NightFall Bot</span>
+                                            <span class="discord-author-username">NightFall Bot</span>
                                             <span class="discord-author-bot-tag"> Bot </span>
                                         </span>
                                         <span class="discord-message-timestamp">{{ new Date().toDateString() }}</span>
