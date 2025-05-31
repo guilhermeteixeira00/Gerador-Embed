@@ -21,9 +21,9 @@ new Vue({
                     value: '',
                 },
                 {
-                    name: '\u200b',
-                    value: '\u200b',
-                    inline: false,
+                    name: '',
+                    value: '',
+                    inline: true,
                 },
                 {
                     name: '',
