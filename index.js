@@ -3,7 +3,7 @@ new Vue({
     data: {
         cbxColor: false,
         embed: {
-            color: "#ff0000",
+            color: "#00ffff",
             title: 'Este e o titulo',
             url: '',
             author: {
